@@ -1,0 +1,1066 @@
+EXP 1: RESUME
+
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <br><br>
+  <h1>Resume</h1>
+  <h2>Mitali Chaphekar</h2>
+  <hr />
+  <br>
+  <p class="head">Interests</p>
+  <ul>
+    <li>Drawing</li>
+    <li>Photography</li>
+    <li>Design</li>
+    <li>Programming</li>
+    <li>Dancing</li>
+  </ul>
+  <p class="head">Skills</p>
+  <ul>
+    <li>Web Design with HTML & CSS</li>
+  </ul>
+  <p class="head">Education</p>
+  <ul>
+    <li>Little Angels</li>
+    <li>Ruia College</li>
+    <li>VPPCOE&VA</li>
+  </ul>
+</div>
+<div class="right"></div>
+<div id="footer">
+  <h2 id="name"></h2></div>
+
+--------------------------------------------------------------------------------------------------------------
+
+EXP2: REGISTRATION FORM
+
+<Html>  
+<head>   
+<title>  
+Registration Page  
+</title>  
+</head>   
+<br>  
+<br>  
+<form>    
+<label> First name </label>         
+<input type="text" name="firstname" size="15"/> <br> <br>  
+<label> Middle name: </label>     
+<input type="text" name="middlename" size="15"/> <br> <br>  
+<label> Last name: </label>         
+<input type="text" name="lastname" size="15"/> <br> <br>  
+<label>   
+BE:  
+</label>   
+<select>  
+<option value="Course"></option>  
+<option value="BCA">IT</option>  
+<option value="BBA">Comps</option>  
+<option value="B.Tech">AIDS</option>  
+<option value="MBA">EXTC</option>   
+</select>  
+ <br>  
+<br>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<input type="radio" name="other"/> Other  
+<br>  
+<br>  
+ <label>   
+Phone :  
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"/> <br> <br>  
+Address  
+<br>  
+<textarea cols="80" rows="5" value="address">  
+</textarea>  
+<br> <br>  
+Email:  
+<input type="email" id="email" name="email"/> <br>    
+<br> <br>  
+Password:  
+<input type="Password" id="pass" name="pass"> <br>   
+<br> <br>  
+Re-type password:  
+<input type="Password" id="repass" name="repass"> <br> <br>  
+<input type="button" value="Submit"/>  
+</form>  
+</body>  
+</html>  
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+EXP3: CSS FONT AND TEXT PROPERTIES
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formal Web Page</title>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .highlight {
+            background-color: #ffc107;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Web Page</h1>
+    </header>
+    
+
+    <main>
+        <h2>About Us</h2>
+        <p>Welcome to our web page. We are dedicated to providing high-quality services to our clients.</p>
+        <p>We offer a wide range of services, including <span class="highlight">consulting</span>, <span class="highlight">advisory</span>, and <span class="highlight">financial planning</span>.</p>
+        <p>Contact us today to learn more about how we can assist you in achieving your goals.</p>
+    </main>
+
+
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------
+
+EXP4: BG PROPERTIES
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Background Image and Color</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(logo-design-t.jpg);
+            background-size: cover;
+        }
+
+        header {
+            background-image: url('header-background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #100101; 
+            text-decoration: solid;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); 
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        main {
+    
+            background-color: rgba(255, 255, 255, 0.8); 
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+    
+    <main>
+        <h2>About Us</h2>
+        <p>This is a sample web page showcasing the use of background images and colors. The header has a background image, while the main content area has a semi-transparent white background color to improve readability.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae lorem eu purus congue mattis.</p>
+    </main>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+EXP5: Write a javascript program to calculate the volume of a cylinder. Define variable and π as constant. 
+
+let r = 2;
+// prompt("Enter the radius");
+let h = 3;
+// prompt("Enter the height");
+let pie = 3.14;
+
+let area = pi * r * r * h;
+
+console.log("volume of cylinder: ", area);
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+EXP 6: Write a JavaScript program to set the background color and highlight the
+text of a paragraph with bold.
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            How to change the background color
+            after clicking the button ?
+        </title>
+    </head>
+    <body style="text-align:center;">
+        <h1 style="color:green;">
+            IP EXPERIMENT 4.1
+        </h1>
+        <p id="GFG_UP" style="font-size: 16px;
+                          font-weight: bold;">
+        </p>
+        <button onclick="gfg_Run()">
+            Click here
+        </button>
+        <p id="GFG_DOWN" style="color:green;
+                            font-size: 20px;
+                            font-weight: bold;">
+        </p>
+        <script>
+        let el_up = document.getElementById("GFG_UP");
+        let el_down = document.getElementById("GFG_DOWN");
+        let str = "Click on button to change the background color";       
+        el_up.innerHTML = str;
+                 
+        function changeColor(color) {
+            document.body.style.background = color;
+        }
+        function gfg_Run() {
+            changeColor('skyblue');
+            el_down.innerHTML = "Background Color changed";
+        }       
+    </script>
+    </body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+EXP 7: Write a JavaScript program to calculate simple interest. Accept principle
+amount, rate of interest and number of years from the user. Use function and
+arrow function to calculate interest.
+
+let amount = 3000;
+let ROT = 2;
+let yrs = 2;
+
+var intrest = (amount*ROT*yrs)/100;
+console.log("simple intrest:"+intrest);
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+EXP 8: Write a JavaScript program to which will have a Class Person (name, age).
+Person class will have a method to display the data items of it. Derive a
+Class Student (name, age, course, marks) from Student.
+Display the details of 2 students with name and age.
+
+class Person {
+    constructor(name, age) {
+      this.name = name;
+      this.age = age;
+    }
+  
+    displayDetails() {
+      console.log(`Name: ${this.name}`);
+      console.log(`Age: ${this.age}`);
+    }
+  }
+  
+  class Student extends Person {
+    constructor(name, age, course, marks) {
+      super(name, age);
+      this.course = course;
+      this.marks = marks;
+    }
+  
+    displayDetails() {
+      super.displayDetails();
+      console.log(`Course: ${this.course}`);
+      console.log(`Marks: ${this.marks}`);
+    }
+  }
+  // Create two Student objects and display their details
+  const student1 = new Student("Alice", 20, "CNS", 95);
+  const student2 = new Student("Bob", 22, "IP", 88);
+  
+  console.log("Student 1 Details:");
+  student1.displayDetails();
+  
+  console.log("\nStudent 2 Details:");
+  student2.displayDetails();
+  
+EXP 9: Write a program to demonstrate promise in JavaScript.
+
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>JavaScript Promise</h2>
+
+        <p id="demo"></p>
+
+        <script>
+function myDisplayer(some) {
+  document.getElementById("demo").innerHTML = some;
+}
+
+let myPromise = new Promise(function(myResolve, myReject) {
+  let x = 5;
+
+
+  if (x == 0) {
+    myResolve("OK");
+  } else {
+    myReject("Error");
+  }
+});
+
+myPromise.then(
+  function(value) {myDisplayer(value);},
+  function(error) {myDisplayer(error);}
+);
+</script>
+
+    </body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------
+
+
+EXP 10: Write a program to demonstrate Callback in JavaScript.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Functions</h1>
+<h2>Function Sequence</h2>
+<p>JavaScript functions are executed in the sequence they are called.</p>
+
+<p id="demo"></p>
+
+<script>
+function myDisplayer(some) {
+  document.getElementById("demo").innerHTML = some;
+}
+
+function myFirst() {
+  myDisplayer("Hello");
+}
+
+function mySecond() {
+  myDisplayer("Goodbye");
+}
+
+mySecond();
+myFirst();
+</script>
+
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------
+
+EXP 11: Write a program to display “Hello World “in React.
+
+npm install -–g create-react-app(optional)
+npx create-react-app hello-world-example
+cd hello-world-example
+npm start
+Open the file App.js
+
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+function App() {
+   return (
+      <div className="App">
+         Hello World !
+      </div>
+   );
+}
+export default App;
+
+
+-------------------------------------------------------------------------------------------------------
+
+EXP12: Write a program that demonstrates State and Prop in React.
+
+npx create-react-app statevsprop and write the below code in index.js file
+
+import React, { Component } from "react"
+import ReactDOM from 'react-dom'; 
+import './index.css'; 
+  
+const Fruit = (props) => { 
+   
+    return ( 
+        <div className="fruit"> 
+            <h1>List of Fruits</h1> 
+            <p>Name: {props.fruits.name}</p> 
+            <p>Color: {props.fruits.color}</p> 
+        </div> 
+    ) 
+} 
+   
+class Car extends Component { 
+    constructor() { 
+        super() 
+        this.state = { 
+            car: 'Ferrari'
+        } 
+    } 
+   
+    changeMessage() { 
+        this.setState({ 
+            car: 'Jaguar'
+        }) 
+    } 
+   
+    render() { 
+        return ( 
+            <div className="App"> 
+                <h1>{this.state.car}</h1> 
+                <button onClick={() => this.changeMessage()}> 
+                    Change 
+                </button> 
+            </div> 
+   
+        ) 
+    } 
+} 
+   
+  
+function App() { 
+   
+    const fruits = 
+    { 
+        name: "Mango", 
+        color: "Yellow"
+    } 
+   
+    return ( 
+        <div className="App"> 
+            <Fruit fruits={fruits} /> 
+            <hr></hr> 
+            <Car /> 
+        </div> 
+    ); 
+} 
+
+const root = ReactDOM.createRoot(document.getElementById('root')); 
+root.render( 
+  <React.StrictMode> 
+    <App /> 
+  </React.StrictMode> 
+);
+
+-------------------------------------------------------------------------------------------------------------------------
+
+EXP 13: Design a registration form using form elements in ReactJS along with
+appropriate validations.
+
+npx create-react-app registration-form-app
+cd registration-form-app
+Replace src/RegistrationForm.js with the Code:
+npm start
+
+import React, { Component } from 'react';
+
+class RegistrationForm extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      firstName: '',
+      lastName: '',
+      email: '',
+      password: '',
+      confirmPassword: '',
+      errors: {},
+    };
+  }
+
+  validateForm = () => {
+    const { firstName, lastName, email, password, confirmPassword } = this.state;
+    let errors = {};
+
+    if (!firstName) {
+      errors.firstName = 'First name is required';
+    }
+
+    if (!lastName) {
+      errors.lastName = 'Last name is required';
+    }
+
+    if (!email) {
+      errors.email = 'Email is required';
+    } else if (!/^\S+@\S+\.\S+$/.test(email)) {
+      errors.email = 'Invalid email format';
+    }
+
+    if (!password) {
+      errors.password = 'Password is required';
+    }
+
+    if (password !== confirmPassword) {
+      errors.confirmPassword = 'Passwords do not match';
+    }
+
+    this.setState({ errors });
+    return Object.keys(errors).length === 0;
+  };
+
+  handleSubmit = (e) => {
+    e.preventDefault();
+    if (this.validateForm()) {
+      // Handle form submission, e.g., send data to a server
+      console.log('Form submitted with data:', this.state);
+    }
+  };
+
+  handleChange = (e) => {
+    const { name, value } = e.target;
+    this.setState({
+      [name]: value,
+    });
+  };
+
+  render() {
+    const { errors } = this.state;
+
+    return (
+      <div>
+        <h2>Registration Form</h2>
+        <form onSubmit={this.handleSubmit}>
+          <div>
+            <label>First Name</label>
+            <input
+              type="text"
+              name="firstName"
+              value={this.state.firstName}
+              onChange={this.handleChange}
+            />
+            {errors.firstName && <span className="error">{errors.firstName}</span>}
+          </div>
+
+          <div>
+            <label>Last Name</label>
+            <input
+              type="text"
+              name="lastName"
+              value={this.state.lastName}
+              onChange={this.handleChange}
+            />
+            {errors.lastName && <span className="error">{errors.lastName}</span>}
+          </div>
+
+          <div>
+            <label>Email</label>
+            <input
+              type="email"
+              name="email"
+              value={this.state.email}
+              onChange={this.handleChange}
+            />
+            {errors.email && <span className="error">{errors.email}</span>}
+          </div>
+
+          <div>
+            <label>Password</label>
+            <input
+              type="password"
+              name="password"
+              value={this.state.password}
+              onChange={this.handleChange}
+            />
+            {errors.password && <span className="error">{errors.password}</span>}
+          </div>
+
+          <div>
+            <label>Confirm Password</label>
+            <input
+              type="password"
+              name="confirmPassword"
+              value={this.state.confirmPassword}
+              onChange={this.handleChange}
+            />
+            {errors.confirmPassword && <span className="error">{errors.confirmPassword}</span>}
+          </div>
+
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    );
+  }
+}
+
+export default RegistrationForm;
+
+-----------------------------------------------------------------------------------------------------------------
+EXP 14: Write a program that demonstrates React Router and single-page
+applications
+
+Set Up a New React Project:
+
+If you don't already have a React project set up, you can create one using Create React App:
+
+
+npx create-react-app react-router-example
+cd react-router-example
+Install React Router:
+
+Inside your project directory, install React Router using npm or yarn:
+
+npm install react-router-dom
+Create Multiple Pages:
+
+For this example, let's create two simple pages - a Home page and a About page.
+
+Create a new component for the Home page (Home.js) and another for the About page (About.js) in your src directory:
+
+src/Home.js:
+
+import React from 'react';
+
+const Home = () => {
+  return (
+    <div>
+      <h2>Home Page</h2>
+      <p>Welcome to the Home Page.</p>
+    </div>
+  );
+};
+export default Home;
+
+
+src/About.js:
+import React from 'react';
+
+const About = () => {
+  return (
+    <div>
+      <h2>About Page</h2>
+      <p>This is the About Page.</p>
+    </div>
+  );
+};
+
+export default About;
+Set Up Routing:
+
+In your src directory, create a new component named App.js and set up routing using React Router:
+
+src/App.js:
+
+
+import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
+
+const App = () => {
+  return (
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+          </ul>
+        </nav>
+
+        <hr />
+
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+      </div>
+    </Router>
+  );
+};
+
+export default App;
+Update the src/index.js file to render the App component:
+
+src/index.js:
+
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+ReactDOM.render(<App />, document.getElementById('root'));
+Run the Application:
+
+Start your development server by running:
+
+npm start
+-------------------------------------------------------------------------------------------------------------------------------
+EXP 15: Write a program that demonstrates Hooks (UseEffect), refs in React JS.
+ HOOKS:
+
+npx create-react-app hello-world-example
+npm install express --save
+cd hello-world-example
+npm start
+1. src/components/HookCounterOne.js: 
+
+import { useState, useEffect } from "react"; 
+  
+function HookCounterOne() { 
+    const [count, setCount] = useState(0); 
+  
+    useEffect(() => { 
+        document.title = `You clicked ${count} times`; 
+    }, [count]); 
+  
+    return ( 
+        <div> 
+            <button onClick={() => setCount((prevCount) => prevCount + 1)}> 
+                Click {count} times{" "} 
+            </button> 
+        </div> 
+    ); 
+} 
+export default HookCounterOne;
+
+2. Open the file App.js and write code in it:
+
+import React from "react"; 
+import "./App.css"; 
+import HookCounterOne from "./components/HookCounterOne"; 
+function App() { 
+    return ( 
+        <div className="App"> 
+            <HookCounterOne /> 
+        </div> 
+    ); 
+} 
+export default App;
+
+REFS:
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+EXP 16: Write a program “Hello World” using http module of Node js. Demonstrate
+REPL in Node.js
+
+create a file called Helloworld.js:
+
+// Importing http core package/module provided by nodejs
+var http = require('http');
+// Creating a server
+http.createServer(function (req, res) {
+// Write response as Html(text)
+res.writeHead(200, {'Content-Type': 'text/html'});
+// Writing static text
+res.end('Hello World');
+// Server listening on port number 4200
+}).listen(4200);
+
+cd..
+node Helloworld.js
+
+2. REPL: create separate file index.js
+
+
+// Importing process module
+const process = require('process');
+// Getting reports of the current process
+const reports = process.report;
+// Display the result
+console.log(reports)
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+EXP 17: Write a program that will perform the following file operations in Node js
+using file system module.
+i) Create a file
+ii) Write some paragraphs into a file.
+
+const fs = require('fs');
+
+// 1. Create a file
+const fileName = 'sample.txt';
+
+fs.open(fileName, 'w', (err, fd) => {
+  if (err) {
+    console.error('Error creating the file:', err);
+  } else {
+    console.log('File created successfully.');
+    
+    // 2. Write some paragraphs into the file
+    const paragraphs = [
+      'This is the first paragraph.',
+      'This is the second paragraph.',
+      'And this is the third paragraph.',
+    ];
+
+    const content = paragraphs.join('\n');
+
+    fs.writeFile(fileName, content, (writeErr) => {
+      if (writeErr) {
+        console.error('Error writing to the file:', writeErr);
+      } else {
+        console.log('Content written to the file successfully.');
+      }
+    });
+  }
+});
+
+Save this code in a JavaScript file, for example, fileOperations.js
+
+node fileOperations.js in cmd
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+EP 18: Write a program that will perform the following file operations in Node js
+using file system module.
+i) Append some text to an existing file
+ii) Rename the file.
+
+const fs = require('fs');
+
+const existingFileName = 'existingFile.txt'; // Name of the existing file
+const appendedText = 'This is some text to append.'; // Text to append
+const newFileName = 'renamedFile.txt'; // New file name
+
+// 1. Append some text to an existing file
+fs.appendFile(existingFileName, appendedText, (err) => {
+  if (err) {
+    console.error('Error appending text to the file:', err);
+  } else {
+    console.log('Text appended to the file successfully.');
+
+    // 2. Rename the file
+    fs.rename(existingFileName, newFileName, (renameErr) => {
+      if (renameErr) {
+        console.error('Error renaming the file:', renameErr);
+      } else {
+        console.log('File renamed successfully.');
+      }
+    });
+  }
+});
+
+Save this code in a JavaScript file, for example, fileOperations.js
+
+node fileOperations.js in cmd
+
+
+----------------------------------------------------------------------------------------------------------
+
+EXP 19: Write a program that will demonstrate the buffers in Node js.
+
+1: 
+buf = new Buffer(256);  
+len = buf.write("Simply Easy Learning");  
+console.log("Octets written : "+  len);  
+
+2: 
+buf = new Buffer(26);  
+for (var i = 0 ; i < 26 ; i++) {  
+  buf[i] = i + 97;  
+}  
+console.log( buf.toString('ascii'));       
+console.log( buf.toString('ascii',0,5));   
+console.log( buf.toString('utf8',0,5));    
+console.log( buf.toString(undefined,0,5)); 
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+EXP 20: Write a program that demonstrates asynchronous programming using
+Node.js
+
+const fs = require('fs');
+const https = require('https');
+
+// Asynchronous file read
+fs.readFile('sample.txt', 'utf8', (err, data) => {
+  if (err) {
+    console.error('File read error:', err);
+  } else {
+    console.log('File Content:');
+    console.log(data);
+
+    // Asynchronous HTTP GET request
+    https.get('https://jsonplaceholder.typicode.com/posts/1', (response) => {
+      let responseData = '';
+
+      response.on('data', (chunk) => {
+        responseData += chunk;
+      });
+
+      response.on('end', () => {
+        console.log('HTTP Response:');
+        console.log(responseData);
+      });
+    });
+  }
+});
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+EXP 21: Write a program that demonstrates client-server communication in
+Node.js.
+
+
+Server (Node.js server):
+
+javascript
+Copy code
+
+const http = require('http');
+
+// Create a basic HTTP server
+const server = http.createServer((req, res) => {
+  res.setHeader('Content-Type', 'text/plain');
+  res.statusCode = 200;
+
+  if (req.url === '/') {
+    res.end('Hello from the server!');
+  } else if (req.url === '/data') {
+    res.end('Some data from the server.');
+  } else {
+    res.end('404 Not Found');
+  }
+});
+
+// Listen on port 3000
+const port = 3000;
+server.listen(port, () => {
+  console.log(`Server is listening on port ${port}`);
+});
+
+Client (Node.js client):
+
+javascript
+Copy code
+
+const http = require('http');
+
+// Define the server options
+const options = {
+  hostname: 'localhost',
+  port: 3000,
+  path: '/',
+  method: 'GET',
+};
+
+// Send a request to the server
+const clientRequest = http.request(options, (serverResponse) => {
+  let responseData = '';
+
+  serverResponse.on('data', (chunk) => {
+    responseData += chunk;
+  });
+
+  serverResponse.on('end', () => {
+    console.log(`Server Response: ${responseData}`);
+  });
+});
+
+clientRequest.end();
+Instructions:
+
+Save the server code to a file, for example, server.js, and the client code to a file, for example, client.js.
+
+Run the server by executing server.js with Node.js:
+
+bash
+Copy code
+node server.js
+This will start the server, and it will be listening on port 3000.
+
+Run the client by executing client.js with Node.js:
+
+bash
+Copy code
+node client.js
+
+---------------------------------------------------------------------------------------------------------------
+EXP 22: Write a program to display “Hello World” using Express JS.
+
+npx create-react-app hello-world-example
+npm install express --save
+cd hello-world-example
+npm start
+Open the file App.js and write code in it:
+
+var express = require('express');
+var app = express();
+app.get('/', function (req, res) {
+  res.send('Hello World!'); //display on port 3000
+});
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!'); //display on cmd
+});
+
+
+
+
